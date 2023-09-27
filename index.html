@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Node Remover</title>
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <div style="margin: 0 auto; width: 300px">
+      <div
+        style="
+          display: grid;
+          margin-bottom: 10px;
+          grid-template-columns: 1;
+          grid-template-rows: 40px;
+        "
+      >
+        <button class="proceed-btn">Proceed HTML</button>
+      </div>
+      <div
+        class="do-not-delete-me"
+        style="
+          background-color: #3aebca;
+          width: 300px;
+          height: 300px;
+          padding-top: 20px;
+        "
+      >
+        <div style="width: 300px; height: 100px;">
+          <div class="sdfsdf" style=" background-color: orange">Delete me</div>
+        </div>
+      </div>
+
+      <div
+        class="do-not-delete-me"
+        style="
+          background-color: #3aebca;
+          width: 300px;
+          height: 300px;
+          padding-top: 20px;
+        "
+      >
+        <div style="width: 300px; height: 100px; background-color: orange">
+          i will also be removed
+          <div class="sdfsdf" style="margin-left: 10px">Remove me deeper</div>
+        </div>
+
+        <div
+        class="do-not-delete-me"
+        style="
+          margin-top: 10px;
+          background-color: #3aebca;
+          width: 300px;
+          height: 200px;
+          padding-top: 20px;
+        "
+      >
+        <div style="background-color: orange" class="class-to-remove">
+          i will be removed
+        </div>
+      </div>
+
+        <div
+        class="do-not-delete-me"
+        style="
+          margin-top: 10px;
+          background-color: #3aebca;
+          width: 300px;
+          height: 200px;
+          padding-top: 20px;
+        "
+      >
+        <div style="background-color: orange">
+          also remove me
+          <div
+            style="background-color: orange; margin-left: 10px"
+            class="class-to-remove-deeper"
+          >
+            i will be removed
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
